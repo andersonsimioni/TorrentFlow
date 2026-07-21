@@ -410,10 +410,27 @@ def piece_is_complete(bitfield: str, piece_index: int) -> bool:
     return bool(value & (0x80 >> bit_index))
 
 
+def torrent_file_offset(status: dict, item: dict) -> int:
+    """Calculate a file's byte offset because aria2 does not expose one."""
+    if "offset" in item:
+        return int(item["offset"])
+
+    target_index = str(item.get("index", ""))
+    target_path = item.get("path", "")
+    offset = 0
+    for current in status.get("files", []):
+        same_index = target_index and str(current.get("index", "")) == target_index
+        same_path = target_path and current.get("path", "") == target_path
+        if same_index or same_path:
+            return offset
+        offset += int(current.get("length", 0))
+    return 0
+
+
 def contiguous_file_bytes(status: dict, item: dict) -> int:
     piece_length = int(status.get("pieceLength", 0))
     bitfield = status.get("bitfield", "")
-    file_offset = int(item.get("offset", 0))
+    file_offset = torrent_file_offset(status, item)
     file_length = int(item.get("length", 0))
     if piece_length <= 0 or not bitfield or file_length <= 0:
         return 0
