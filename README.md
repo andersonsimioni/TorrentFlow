@@ -1,38 +1,67 @@
 <div align="center">
 
-# Live Torrent Client
+# TorrentFlow
 
-**Explore magnet links, choose exactly what you need, and watch videos while they download.**
+### Search. Explore. Stream.
 
-Python-powered CLI · aria2 BitTorrent engine · VLC progressive playback
+**The smarter way to discover torrents, inspect every file, and start watching
+before the download is finished.**
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&logoColor=white)
+![Engine](https://img.shields.io/badge/Engine-aria2-36C5A3)
+![Player](https://img.shields.io/badge/Streaming-VLC-FF8800?logo=vlcmediaplayer&logoColor=white)
 
 </div>
 
 ---
 
-Live Torrent Client is a lightweight interactive torrent explorer. Give it a
-magnet link and it fetches the torrent metadata, displays the available files
-and current seeders, then lets you choose which items to download.
+TorrentFlow turns the traditional torrent experience into a clean, visual, and
+direct workflow. Search across dozens of engines, compare availability, inspect
+the complete contents of a torrent, and download only what matters to you.
 
-When a single video is selected, the client can prioritize the parts required
-for playback and open the file in VLC after building a small buffer.
+Want to watch a video immediately? TorrentFlow intelligently prioritizes the
+beginning of the selected file, builds a safe contiguous buffer, and launches
+VLC while the rest continues downloading in the background.
+
+> One application. Every step. From discovery to playback.
 
 > Use this software only with content that you are authorized to download and
 > share.
 
-## Features
+## Why TorrentFlow?
 
+Most torrent clients make you add a torrent before you can understand what is
+inside it. TorrentFlow puts discovery and control first: search, inspect,
+select, and then download.
+
+- **Find more** — search every available local plugin plus optional Torznab
+  sources such as Jackett and Prowlarr.
+- **Choose smarter** — compare file size, seeders, peers, and source before
+  opening a result.
+- **Download less** — inspect the full file list and select only the items you
+  actually want.
+- **Watch sooner** — stream a selected video through VLC using intelligent
+  piece prioritization and a protected playback buffer.
+- **Stay in control** — follow progress, speed, seeders, buffering, and activity
+  from one focused desktop interface.
+
+## Everything you need
+
+- Modern dark desktop interface with clear navigation
 - Interactive mode when no command-line arguments are provided
 - Magnet metadata inspection before downloading content
 - Parallel searches through Jackett, Prowlarr, or any Torznab-compatible source
+- Search through qBittorrent Nova3 and bundled community plugins
 - Result deduplication and automatic sorting by seeder count
 - Current seeder count and numbered file listing
 - Individual, multiple, range, or full-torrent file selection
 - Custom download directory
 - Metadata-only inspection mode
 - Configurable metadata timeout
-- Progressive video playback through VLC
-- No third-party Python packages
+- Progressive VLC playback with a 64 MB to 256 MB contiguous buffer
+- Automatic task renewal for consecutive downloads from the same torrent
+- Dedicated CLI for terminal users and automation
 - Clear errors for missing tools, unavailable peers, and invalid selections
 
 ## How it works
@@ -94,8 +123,8 @@ winget install --id VideoLAN.VLC --exact
 Clone the repository and enter its directory:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/live-torrent-client.git
-cd live-torrent-client
+git clone https://github.com/YOUR_USERNAME/TorrentFlow.git
+cd TorrentFlow
 ```
 
 Install the small set of dependencies required by some community plugins:
@@ -145,7 +174,7 @@ are merged by title and size, magnet links are preferred, and results are ranked
 by seeder count. A failed or outdated plugin produces a warning without stopping
 the remaining search.
 
-When qBittorrent is installed, Live Torrent Client first uses the plugins from
+When qBittorrent is installed, TorrentFlow first uses the plugins from
 its local Nova3 profile. This preserves plugin-specific JSON settings and uses
 the same engine versions as qBittorrent. Stored project plugins then add any
 search engines missing from that profile. Engines with the same module name are
@@ -169,7 +198,7 @@ brew install aria2
 brew install --cask vlc
 ```
 
-## Quick start
+## Start flowing in minutes
 
 Install the Python dependencies and start the graphical client:
 
@@ -178,8 +207,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The desktop interface includes torrent search, metadata exploration, multi-file
-selection, live transfer statistics, output-folder settings, and VLC streaming.
+Welcome to your new torrent command center. The desktop interface brings
+together torrent search, metadata exploration, multi-file selection, live
+transfer statistics, output-folder settings, and VLC streaming.
 All network and download work runs outside the interface thread, so the window
 remains responsive while engines and peers are contacted.
 
@@ -398,7 +428,7 @@ for more buffer, choose a torrent with more seeders, or let the download finish.
 ## Project structure
 
 ```text
-live-torrent-client/
+TorrentFlow/
 ├── main.py           # Modern desktop GUI wrapper
 ├── main-cli.py       # Core client, CLI, aria2 RPC, and VLC playback
 ├── search_engine/
