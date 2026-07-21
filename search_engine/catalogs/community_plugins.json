@@ -1,0 +1,510 @@
+{
+  "source": "https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins",
+  "retrieved_on": "2026-07-20",
+  "warning": "Unofficial Python plugins execute code. Audit every plugin before installing or running it.",
+  "total": 100,
+  "public_count": 74,
+  "private_count": 26,
+  "plugins": [
+    {
+      "section": "public",
+      "name": "Academic Torrents",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/academictorrents.py"
+    },
+    {
+      "section": "public",
+      "name": "acgrip",
+      "url": "https://raw.githubusercontent.com/Cc050511/qBit-search-plugins/main/acgrip.py"
+    },
+    {
+      "section": "public",
+      "name": "ali213.net",
+      "url": "https://raw.githubusercontent.com/hannsen/qbittorrent_search_plugins/master/ali213.py"
+    },
+    {
+      "section": "public",
+      "name": "anidex.info",
+      "url": "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/anidex.py"
+    },
+    {
+      "section": "public",
+      "name": "animetosho.org",
+      "url": "https://raw.githubusercontent.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin/main/animetosho.py"
+    },
+    {
+      "section": "public",
+      "name": "Apache Torrent",
+      "url": "https://gist.githubusercontent.com/bebetoh/3bb49cdf2b3718937b5446db1e4a4915/raw/1819e3ed75faa0da1571173a677081dc107054aa/apachetorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "AudioBook Bay (ABB)",
+      "url": "https://raw.githubusercontent.com/nklido/qBittorrent_search_engines/master/engines/audiobookbay.py"
+    },
+    {
+      "section": "public",
+      "name": "Bit Search",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/bitsearch.py"
+    },
+    {
+      "section": "public",
+      "name": "bt4gprx",
+      "url": "https://raw.githubusercontent.com/TuckerWarlock/qbittorrent-search-plugins/main/bt4gprx.com/bt4gprx.py"
+    },
+    {
+      "section": "public",
+      "name": "btdig",
+      "url": "https://raw.githubusercontent.com/galaris/BTDigg-qBittorrent-plugin/main/btdig.py"
+    },
+    {
+      "section": "public",
+      "name": "CalidadTorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/calidadtorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "CloudTorrents",
+      "url": "https://raw.githubusercontent.com/elazar/qbittorrent-search-plugins/refs/heads/add-cloudtorrents-plugin/nova3/engines/cloudtorrents.py"
+    },
+    {
+      "section": "public",
+      "name": "Cpasbien",
+      "url": "https://raw.githubusercontent.com/MarcBresson/cpasbien/master/src/cpasbien.py"
+    },
+    {
+      "section": "public",
+      "name": "dark-libria",
+      "url": "https://raw.githubusercontent.com/bugsbringer/qbit-plugins/master/darklibria.py"
+    },
+    {
+      "section": "public",
+      "name": "divxtotal",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/divxtotal.py"
+    },
+    {
+      "section": "public",
+      "name": "DMHY",
+      "url": "https://raw.githubusercontent.com/ZH1637/dmhy/main/dmhy.py"
+    },
+    {
+      "section": "public",
+      "name": "DMHY",
+      "url": "https://raw.githubusercontent.com/diazchika/dmhy/main/dmhy.py"
+    },
+    {
+      "section": "public",
+      "name": "DODI Repacks",
+      "url": "https://raw.githubusercontent.com/Bioux1/qbtSearchPlugins/main/dodi_repacks.py"
+    },
+    {
+      "section": "public",
+      "name": "Dontorrent",
+      "url": "https://raw.githubusercontent.com/dangar16/dontorrent-plugin/main/dontorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "dontorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/dontorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "Elitetorrent",
+      "url": "https://raw.githubusercontent.com/iordic/qbittorrent-search-plugins/master/engines/elitetorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "esmeraldatorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/esmeraldatorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "EZTV",
+      "url": "https://raw.githubusercontent.com/DrPurp/eztvx-qbittorrent-plugin/main/eztvx.py"
+    },
+    {
+      "section": "public",
+      "name": "FitGirl Repacks",
+      "url": "https://raw.githubusercontent.com/Bioux1/qbtSearchPlugins/main/fitgirl_repacks.py"
+    },
+    {
+      "section": "public",
+      "name": "GloTorrents",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/glotorrents.py"
+    },
+    {
+      "section": "public",
+      "name": "Gog-games",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/goggames.py"
+    },
+    {
+      "section": "public",
+      "name": "Kickass Torrent",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/kickasstorrents.py"
+    },
+    {
+      "section": "public",
+      "name": "Linux Tracker",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/6074a7cccb90dfd5c81b7eaddd3138adec7f3377/engines/linuxtracker.py"
+    },
+    {
+      "section": "public",
+      "name": "MagnetDL",
+      "url": "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/magnetdl.py"
+    },
+    {
+      "section": "public",
+      "name": "MagnetDL with categories",
+      "url": "https://Scare.ca/dl/qBittorrent/magnetdl.py"
+    },
+    {
+      "section": "public",
+      "name": "MaxiTorrent",
+      "url": "https://raw.githubusercontent.com/joseeloren/search-plugins/master/nova3/engines/maxitorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "MejorTorrent",
+      "url": "https://raw.githubusercontent.com/iordic/qbittorrent-search-plugins/master/engines/mejortorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "Mikan Project",
+      "url": "https://raw.githubusercontent.com/Cycloctane/qBittorrent-plugins/master/engines/mikan.py"
+    },
+    {
+      "section": "public",
+      "name": "mikanani",
+      "url": "https://raw.githubusercontent.com/Cc050511/qBit-search-plugins/main/mikanani.py"
+    },
+    {
+      "section": "public",
+      "name": "My Porn Club",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/mypornclub.py"
+    },
+    {
+      "section": "public",
+      "name": "naranjatorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/naranjatorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "nekoBT",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/nekobt.py"
+    },
+    {
+      "section": "public",
+      "name": "Nyaa.Pantsu",
+      "url": "https://raw.githubusercontent.com/libellula/qbt-plugins/main/pantsu.py"
+    },
+    {
+      "section": "public",
+      "name": "Nyaa.pantsu",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/refs/heads/main/engines/nyaapantsu.py"
+    },
+    {
+      "section": "public",
+      "name": "Nyaa.si",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/nyaasi.py"
+    },
+    {
+      "section": "public",
+      "name": "Online-Fix",
+      "url": "https://raw.githubusercontent.com/caiocinel/onlinefix-qbittorrent-plugin/main/onlinefix.py"
+    },
+    {
+      "section": "public",
+      "name": "PediaTorrent",
+      "url": "https://raw.githubusercontent.com/dangar16/pediatorrent-plugin/refs/heads/main/pediatorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "PediaTorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/pediatorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "Pirateiro",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/pirateiro.py"
+    },
+    {
+      "section": "public",
+      "name": "Rede Torrent",
+      "url": "https://gist.githubusercontent.com/bebetoh/b5e1f4731462de9b837f5026617b1d4a/raw/e71d0020078d56d3f7e9a903ca7b4d44774e10f7/redetorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "RockBox",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/rockbox.py"
+    },
+    {
+      "section": "public",
+      "name": "Rutor",
+      "url": "https://raw.githubusercontent.com/imDMG/qBt_SE/master/engines/rutor.py"
+    },
+    {
+      "section": "public",
+      "name": "SkTorrent",
+      "url": "https://raw.githubusercontent.com/Ashalda/sktorrent-qbt/refs/heads/main/sktorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "small-games.info",
+      "url": "https://raw.githubusercontent.com/hannsen/qbittorrent_search_plugins/master/smallgames.py"
+    },
+    {
+      "section": "public",
+      "name": "Snowfl",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/snowfl.py"
+    },
+    {
+      "section": "public",
+      "name": "SolidTorrents.to",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/solidtorrents.py"
+    },
+    {
+      "section": "public",
+      "name": "SubsPlease.org",
+      "url": "https://raw.githubusercontent.com/kli885/qBittorent-SubsPlease-Search-Plugin/main/subsplease.py"
+    },
+    {
+      "section": "public",
+      "name": "Sukebei (Nyaa)",
+      "url": "https://github.com/vt-idiot/qBit-SukebeiNyaa-plugin/raw/master/engines/sukebeisi.py"
+    },
+    {
+      "section": "public",
+      "name": "Sukebei Nyaa",
+      "url": "https://raw.githubusercontent.com/phuongtailtranminh/qBittorrent-Nyaa-Search-Plugin/master/nyaa.py"
+    },
+    {
+      "section": "public",
+      "name": "Sukebei.Pantsu",
+      "url": "https://raw.githubusercontent.com/libellula/qbt-plugins/main/sukebei.py"
+    },
+    {
+      "section": "public",
+      "name": "ThePirateBay",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/thepiratebay.py"
+    },
+    {
+      "section": "public",
+      "name": "ThePirateBay with categories",
+      "url": "https://Scare.ca/dl/qBittorrent/thepiratebay.py"
+    },
+    {
+      "section": "public",
+      "name": "The RarBg",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/therarbg.py"
+    },
+    {
+      "section": "public",
+      "name": "TomaDivx",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/tomadivx.py"
+    },
+    {
+      "section": "public",
+      "name": "Tokyo Toshokan",
+      "url": "https://raw.githubusercontent.com/BrunoReX/qBittorrent-Search-Plugin-TokyoToshokan/master/tokyotoshokan.py"
+    },
+    {
+      "section": "public",
+      "name": "Torrent9",
+      "url": "https://raw.githubusercontent.com/menegop/qbfrench/master/torrent9.py"
+    },
+    {
+      "section": "public",
+      "name": "TorrentDownload",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/torrentdownload.py"
+    },
+    {
+      "section": "public",
+      "name": "TorrentDownload with categories",
+      "url": "https://Scare.ca/dl/qBittorrent/torrentdownload.py"
+    },
+    {
+      "section": "public",
+      "name": "Torrent Downloads Pro",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/torrentdownloads.py"
+    },
+    {
+      "section": "public",
+      "name": "Torrenflix",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/torrenflix.py"
+    },
+    {
+      "section": "public",
+      "name": "TorrentGalaxy",
+      "url": "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/torrentgalaxy.py"
+    },
+    {
+      "section": "public",
+      "name": "TrahT",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/traht.py"
+    },
+    {
+      "section": "public",
+      "name": "UIndex",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/uindex.py"
+    },
+    {
+      "section": "public",
+      "name": "UnionDHT",
+      "url": "https://raw.githubusercontent.com/msagca/qbittorrent-plugins/main/uniondht.py"
+    },
+    {
+      "section": "public",
+      "name": "XXXClub",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/xxxclubto.py"
+    },
+    {
+      "section": "public",
+      "name": "YourBittorrent",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/yourbittorrent.py"
+    },
+    {
+      "section": "public",
+      "name": "YTS",
+      "url": "https://codeberg.org/lazulyra/qbit-plugins/raw/branch/main/yts/yts.py"
+    },
+    {
+      "section": "public",
+      "name": "YGGtracker",
+      "url": "https://raw.githubusercontent.com/YGGverse/qbittorrent-yggtracker-search-plugin/main/yggtracker.py"
+    },
+    {
+      "section": "public",
+      "name": "Zooqle",
+      "url": "https://raw.githubusercontent.com/444995/qbit-search-plugins/main/engines/zooqle.py"
+    },
+    {
+      "section": "private",
+      "name": "BakaBT",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/bakabt.py"
+    },
+    {
+      "section": "private",
+      "name": "C411",
+      "url": "https://raw.githubusercontent.com/OptimusKoala/qbittorrent-c411-plugin/refs/heads/main/c411.py"
+    },
+    {
+      "section": "private",
+      "name": "DanishBytes",
+      "url": "https://raw.githubusercontent.com/444995/qbit-search-plugins/main/engines/danishbytes.py"
+    },
+    {
+      "section": "private",
+      "name": "FileList",
+      "url": "https://raw.githubusercontent.com/RaresPNet/filelist_search_plugin/main/filelist.py"
+    },
+    {
+      "section": "private",
+      "name": "GazelleGames",
+      "url": "https://raw.githubusercontent.com/Ooggle/qbittorrent-search-plugins/master/engines/gazellegames.py"
+    },
+    {
+      "section": "private",
+      "name": "IPTorrents",
+      "url": "https://raw.githubusercontent.com/txtsd/qB-IPT/master/iptorrents.py"
+    },
+    {
+      "section": "private",
+      "name": "Kinozal",
+      "url": "https://raw.githubusercontent.com/imDMG/qBt_SE/master/engines/kinozal.py"
+    },
+    {
+      "section": "private",
+      "name": "Lat-Team",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/latteam.py"
+    },
+    {
+      "section": "private",
+      "name": "LostFilm.TV",
+      "url": "https://raw.githubusercontent.com/bugsbringer/qbit-plugins/master/lostfilm.py"
+    },
+    {
+      "section": "private",
+      "name": "Milkie",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/milkie.py"
+    },
+    {
+      "section": "private",
+      "name": "nCore",
+      "url": "https://raw.githubusercontent.com/darktohka/qbittorrent-plugins/master/ncore.py"
+    },
+    {
+      "section": "private",
+      "name": "NoNaMe-Club",
+      "url": "https://raw.githubusercontent.com/imDMG/qBt_SE/master/engines/nnmclub.py"
+    },
+    {
+      "section": "private",
+      "name": "Pornolab",
+      "url": "https://raw.githubusercontent.com/TainakaDrums/qbPornolab/master/pornolab.py"
+    },
+    {
+      "section": "private",
+      "name": "Prowlarr",
+      "url": "https://raw.githubusercontent.com/swannie-eire/prowlarr-qbittorrent-plugins/main/prowlarr.py"
+    },
+    {
+      "section": "private",
+      "name": "Redacted",
+      "url": "https://raw.githubusercontent.com/evyd13/search-plugins/master/nova3/engines/redacted_ch.py"
+    },
+    {
+      "section": "private",
+      "name": "RuTracker",
+      "url": "https://raw.githubusercontent.com/imDMG/qBt_SE/master/engines/rutracker.py"
+    },
+    {
+      "section": "private",
+      "name": "RuTracker",
+      "url": "https://raw.githubusercontent.com/nbusseneau/qBittorrent-rutracker-plugin/master/rutracker.py"
+    },
+    {
+      "section": "private",
+      "name": "SpeedApp.IO",
+      "url": "https://raw.githubusercontent.com/miIiano/SpeedApp.io-qBittorent-search-plugin/main/speedapp.py"
+    },
+    {
+      "section": "private",
+      "name": "Tapochek",
+      "url": "https://raw.githubusercontent.com/MjKey/qBT-SE/refs/heads/master/enigines/tapochek.py"
+    },
+    {
+      "section": "private",
+      "name": "TorrentLeech",
+      "url": "https://raw.githubusercontent.com/444995/qbit-search-plugins/main/engines/torrentleech.py"
+    },
+    {
+      "section": "private",
+      "name": "Гуртом — торрент-толока",
+      "url": "https://raw.githubusercontent.com/playday3008/qBittorrent-plugins/refs/heads/main/plugins/search/toloka_to.py"
+    },
+    {
+      "section": "private",
+      "name": "UnionFansub",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/unionfansub.py"
+    },
+    {
+      "section": "private",
+      "name": "UnionFansub",
+      "url": "https://gitlab.com/CrimsonKoba/qb-search-plugin/-/raw/master/unionfansub.py"
+    },
+    {
+      "section": "private",
+      "name": "YggAPI",
+      "url": "https://github.com/Laiteux/YggAPI-qBittorrent-Search-Plugin/blob/main/yggapi.py#L13"
+    },
+    {
+      "section": "private",
+      "name": "YggTorrent",
+      "url": "https://raw.githubusercontent.com/CravateRouge/qBittorrentSearchPlugins/master/yggtorrent.py"
+    },
+    {
+      "section": "private",
+      "name": "Zamunda.RIP",
+      "url": "https://raw.githubusercontent.com/codeobfuscation/qBittorrent-ZamundaRIP-plugin/main/zamundarip.py"
+    }
+  ]
+}

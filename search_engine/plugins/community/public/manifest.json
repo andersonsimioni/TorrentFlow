@@ -1,0 +1,593 @@
+{
+  "generated_at": "2026-07-21T02:41:33.947965+00:00",
+  "source_catalog": "catalogs/community_plugins.json",
+  "plugins": [
+    {
+      "name": "Academic Torrents",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/academictorrents.py",
+      "path": "plugins/community/public/academic-torrents/academictorrents.py",
+      "status": "downloaded",
+      "size": 4199,
+      "sha256": "5a4e025814e1fc8ae97a6c267fb706e03976fef1b629cb63eeb9944ebd9b49d3"
+    },
+    {
+      "name": "acgrip",
+      "url": "https://raw.githubusercontent.com/Cc050511/qBit-search-plugins/main/acgrip.py",
+      "path": "plugins/community/public/acgrip/acgrip.py",
+      "status": "downloaded",
+      "size": 7030,
+      "sha256": "f7df6d770895c73c6603618a147bf6223a7ee9d0a708cd83ae7ea550cc9c7387"
+    },
+    {
+      "name": "ali213.net",
+      "url": "https://raw.githubusercontent.com/hannsen/qbittorrent_search_plugins/master/ali213.py",
+      "path": "plugins/community/public/ali213-net/ali213.py",
+      "status": "downloaded",
+      "size": 3536,
+      "sha256": "ca6167e6717896f4034fa14b1ad773b3ab613a643a6bd435b664788ab5a8022b"
+    },
+    {
+      "name": "anidex.info",
+      "url": "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/anidex.py",
+      "path": "plugins/community/public/anidex-info/anidex.py",
+      "status": "downloaded",
+      "size": 3959,
+      "sha256": "79a66e01e573e2df4d5511f09c67ec3b341f47cd8aa2926b5adfa698562ab02e"
+    },
+    {
+      "name": "animetosho.org",
+      "url": "https://raw.githubusercontent.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin/main/animetosho.py",
+      "path": "plugins/community/public/animetosho-org/animetosho.py",
+      "status": "downloaded",
+      "size": 1860,
+      "sha256": "00f041833a06de3f32821101b06535f2bd2255f228a8aa40e0f8e91850bd73c9"
+    },
+    {
+      "name": "Apache Torrent",
+      "url": "https://gist.githubusercontent.com/bebetoh/3bb49cdf2b3718937b5446db1e4a4915/raw/1819e3ed75faa0da1571173a677081dc107054aa/apachetorrent.py",
+      "path": "plugins/community/public/apache-torrent/apachetorrent.py",
+      "status": "downloaded",
+      "size": 9237,
+      "sha256": "528566aa9144ccfec70e862e0af9ebc51c794979f181ae7146b04bca9b5ec105"
+    },
+    {
+      "name": "AudioBook Bay (ABB)",
+      "url": "https://raw.githubusercontent.com/nklido/qBittorrent_search_engines/master/engines/audiobookbay.py",
+      "path": "plugins/community/public/audiobook-bay-abb/audiobookbay.py",
+      "status": "downloaded",
+      "size": 7334,
+      "sha256": "a815c16da570e58b1eba211d4bd1fbee835dddcd9e7f9a1ac63d7becbf41cb5e"
+    },
+    {
+      "name": "Bit Search",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/bitsearch.py",
+      "path": "plugins/community/public/bit-search/bitsearch.py",
+      "status": "downloaded",
+      "size": 9909,
+      "sha256": "21b856f02ebcc28497a020539e80d347d5df5b6e2d6997d42cb5f9d90ab2a895"
+    },
+    {
+      "name": "bt4gprx",
+      "url": "https://raw.githubusercontent.com/TuckerWarlock/qbittorrent-search-plugins/main/bt4gprx.com/bt4gprx.py",
+      "path": "plugins/community/public/bt4gprx/bt4gprx.py",
+      "status": "downloaded",
+      "size": 4358,
+      "sha256": "9c6cc2672592239c18f75d9c3c939d1f3e3b952a556fc196dc8fe3f8b18469ac"
+    },
+    {
+      "name": "btdig",
+      "url": "https://raw.githubusercontent.com/galaris/BTDigg-qBittorrent-plugin/main/btdig.py",
+      "path": "plugins/community/public/btdig/btdig.py",
+      "status": "downloaded",
+      "size": 5017,
+      "sha256": "32ea79f5686fff4e3cea0f3fcd97bf1df9da16c29a64e5f742db8a055ce87d84"
+    },
+    {
+      "name": "CalidadTorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/calidadtorrent.py",
+      "path": "plugins/community/public/calidadtorrent/calidadtorrent.py",
+      "status": "downloaded",
+      "size": 5345,
+      "sha256": "6cf8c997c762c807d3d48fe966b7957e88d1a1d0ef747f138656348c517d53d0"
+    },
+    {
+      "name": "CloudTorrents",
+      "url": "https://raw.githubusercontent.com/elazar/qbittorrent-search-plugins/refs/heads/add-cloudtorrents-plugin/nova3/engines/cloudtorrents.py",
+      "path": "plugins/community/public/cloudtorrents/cloudtorrents.py",
+      "status": "downloaded",
+      "size": 3285,
+      "sha256": "861485972efd8f442f289c80146e5d7b113c071667f07c2e2484d265859ba720"
+    },
+    {
+      "name": "Cpasbien",
+      "url": "https://raw.githubusercontent.com/MarcBresson/cpasbien/master/src/cpasbien.py",
+      "path": "plugins/community/public/cpasbien/cpasbien.py",
+      "status": "downloaded",
+      "size": 5848,
+      "sha256": "69884cfd0e78708f5227859bca9e310227c1a9507d5cd0d03e4992dfdb2c76e6"
+    },
+    {
+      "name": "dark-libria",
+      "url": "https://raw.githubusercontent.com/bugsbringer/qbit-plugins/master/darklibria.py",
+      "path": "plugins/community/public/dark-libria/darklibria.py",
+      "status": "downloaded",
+      "size": 10176,
+      "sha256": "c2e2cd728b69e3a1ddb75374dc95a0010b6f85d037dc9f38eefb48c7f42b058f"
+    },
+    {
+      "name": "divxtotal",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/divxtotal.py",
+      "path": "plugins/community/public/divxtotal/divxtotal.py",
+      "status": "downloaded",
+      "size": 7550,
+      "sha256": "cec809857e1087a13bf27f74a8f46d710ba8b353fec772f92fc011e8fc8746e9"
+    },
+    {
+      "name": "DMHY",
+      "url": "https://raw.githubusercontent.com/ZH1637/dmhy/main/dmhy.py",
+      "path": "plugins/community/public/dmhy/dmhy.py",
+      "status": "downloaded",
+      "size": 3921,
+      "sha256": "c09c07139f12d31d0b6d26bc62d2943ef8188cbe0451a3b433a697a7e9967bbe"
+    },
+    {
+      "name": "DMHY",
+      "url": "https://raw.githubusercontent.com/diazchika/dmhy/main/dmhy.py",
+      "path": "plugins/community/public/dmhy-2/dmhy.py",
+      "status": "downloaded",
+      "size": 7407,
+      "sha256": "f946209618a8cbe8cda9c0498e8bc3cfe04221d4010b578ae39f84232ab34576"
+    },
+    {
+      "name": "DODI Repacks",
+      "url": "https://raw.githubusercontent.com/Bioux1/qbtSearchPlugins/main/dodi_repacks.py",
+      "path": "plugins/community/public/dodi-repacks/dodi_repacks.py",
+      "status": "downloaded",
+      "size": 1391,
+      "sha256": "51b49a2c181088da532afa2fdd75b64e480d20f0d67c83076a1f85bc16bd8506"
+    },
+    {
+      "name": "Dontorrent",
+      "url": "https://raw.githubusercontent.com/dangar16/dontorrent-plugin/main/dontorrent.py",
+      "path": "plugins/community/public/dontorrent/dontorrent.py",
+      "status": "downloaded",
+      "size": 5673,
+      "sha256": "09bcbf582ce55c54d3605e711a2ba7456e71c9f27db7ec258280b187c4dcec21"
+    },
+    {
+      "name": "dontorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/dontorrent.py",
+      "path": "plugins/community/public/dontorrent-2/dontorrent.py",
+      "status": "downloaded",
+      "size": 7831,
+      "sha256": "f9a0ada328c01598f00d34a30b6447a9fdf86810c870b2cbcc65e99098857ae2"
+    },
+    {
+      "name": "Elitetorrent",
+      "url": "https://raw.githubusercontent.com/iordic/qbittorrent-search-plugins/master/engines/elitetorrent.py",
+      "path": "plugins/community/public/elitetorrent/elitetorrent.py",
+      "status": "downloaded",
+      "size": 6008,
+      "sha256": "181186dbb86f5b3b817ac97d96169ea0c5b0d907a9ddb0cff204456a8014e994"
+    },
+    {
+      "name": "esmeraldatorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/esmeraldatorrent.py",
+      "path": "plugins/community/public/esmeraldatorrent/esmeraldatorrent.py",
+      "status": "downloaded",
+      "size": 7571,
+      "sha256": "1004b06f4bac2af34270fcecb29d81ca7b918f28bea6dadc710643360f528baf"
+    },
+    {
+      "name": "EZTV",
+      "url": "https://raw.githubusercontent.com/DrPurp/eztvx-qbittorrent-plugin/main/eztvx.py",
+      "path": "plugins/community/public/eztv/eztvx.py",
+      "status": "downloaded",
+      "size": 7497,
+      "sha256": "07383109341fd035073f35ca3ddcd9095a407afcba8248b573419ae90759767a"
+    },
+    {
+      "name": "FitGirl Repacks",
+      "url": "https://raw.githubusercontent.com/Bioux1/qbtSearchPlugins/main/fitgirl_repacks.py",
+      "path": "plugins/community/public/fitgirl-repacks/fitgirl_repacks.py",
+      "status": "downloaded",
+      "size": 1391,
+      "sha256": "3285f800eac78beb6bec8ad0503d34966abcea36ecbf802048e87a46b6965bd2"
+    },
+    {
+      "name": "GloTorrents",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/glotorrents.py",
+      "path": "plugins/community/public/glotorrents/glotorrents.py",
+      "status": "downloaded",
+      "size": 3031,
+      "sha256": "66f7ac3ec14f7739451d4614823f82acda619430dda59bb521c51f507b5966ca"
+    },
+    {
+      "name": "Gog-games",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/goggames.py",
+      "path": "plugins/community/public/gog-games/goggames.py",
+      "status": "downloaded",
+      "size": 4412,
+      "sha256": "756bf172b89051f15f726618fc38cd3a44cb74a2a810a46ed2d1ed8fcbdb7642"
+    },
+    {
+      "name": "Kickass Torrent",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/kickasstorrents.py",
+      "path": "plugins/community/public/kickass-torrent/kickasstorrents.py",
+      "status": "downloaded",
+      "size": 3112,
+      "sha256": "b3e9f714f06936a9185b3a54bd58a6f4230d13d1378d87012284f2955bf68d69"
+    },
+    {
+      "name": "Linux Tracker",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/6074a7cccb90dfd5c81b7eaddd3138adec7f3377/engines/linuxtracker.py",
+      "path": "plugins/community/public/linux-tracker/linuxtracker.py",
+      "status": "downloaded",
+      "size": 5416,
+      "sha256": "1e0bd56b2146f8b12b5a966b3c26fb9668e43c20bff9a3551ee1ebc749093c87"
+    },
+    {
+      "name": "MagnetDL",
+      "url": "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/magnetdl.py",
+      "path": "plugins/community/public/magnetdl/magnetdl.py",
+      "status": "downloaded",
+      "size": 1756,
+      "sha256": "e87857e3c48a9bc71583d9d68378cb52da6c685c89fa3ea41d47e3370f6bdb7b"
+    },
+    {
+      "name": "MagnetDL with categories",
+      "url": "https://Scare.ca/dl/qBittorrent/magnetdl.py",
+      "path": "plugins/community/public/magnetdl-with-categories/magnetdl.py",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "MaxiTorrent",
+      "url": "https://raw.githubusercontent.com/joseeloren/search-plugins/master/nova3/engines/maxitorrent.py",
+      "path": "plugins/community/public/maxitorrent/maxitorrent.py",
+      "status": "downloaded",
+      "size": 6928,
+      "sha256": "7dfd624b206f74a4f65dbb47f430082dac580a75e8edb657ef6b90d576b485a0"
+    },
+    {
+      "name": "MejorTorrent",
+      "url": "https://raw.githubusercontent.com/iordic/qbittorrent-search-plugins/master/engines/mejortorrent.py",
+      "path": "plugins/community/public/mejortorrent/mejortorrent.py",
+      "status": "downloaded",
+      "size": 6327,
+      "sha256": "3ba2a8d31316970a05d933cdd563aa17ec3d4976cb355da24ed5e47834ff783a"
+    },
+    {
+      "name": "Mikan Project",
+      "url": "https://raw.githubusercontent.com/Cycloctane/qBittorrent-plugins/master/engines/mikan.py",
+      "path": "plugins/community/public/mikan-project/mikan.py",
+      "status": "downloaded",
+      "size": 1751,
+      "sha256": "91d6a0a308443fbb8501a1238a07179630ee34d1b253a5248b8dbfbcc88a4907"
+    },
+    {
+      "name": "mikanani",
+      "url": "https://raw.githubusercontent.com/Cc050511/qBit-search-plugins/main/mikanani.py",
+      "path": "plugins/community/public/mikanani/mikanani.py",
+      "status": "downloaded",
+      "size": 6480,
+      "sha256": "6718aa913e7f244b4699835eec05cb91c9acdaaf741f6c3ef651fc348e383a52"
+    },
+    {
+      "name": "My Porn Club",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/mypornclub.py",
+      "path": "plugins/community/public/my-porn-club/mypornclub.py",
+      "status": "downloaded",
+      "size": 11327,
+      "sha256": "11aa1fdbe2e9ffa48aa0a89fa9115b6b7bc0fe979d6a99d58882ea9e2484558b"
+    },
+    {
+      "name": "naranjatorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/naranjatorrent.py",
+      "path": "plugins/community/public/naranjatorrent/naranjatorrent.py",
+      "status": "downloaded",
+      "size": 7565,
+      "sha256": "b0aee03a25844b2aef789afa0da6e4258b4e9a6b69970172f435a118410bfa6d"
+    },
+    {
+      "name": "nekoBT",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/nekobt.py",
+      "path": "plugins/community/public/nekobt/nekobt.py",
+      "status": "downloaded",
+      "size": 4070,
+      "sha256": "29aba65332f19823208c1186d4366b5d909f0cab4043a6876f204e417819964a"
+    },
+    {
+      "name": "Nyaa.Pantsu",
+      "url": "https://raw.githubusercontent.com/libellula/qbt-plugins/main/pantsu.py",
+      "path": "plugins/community/public/nyaa-pantsu/pantsu.py",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Nyaa.pantsu",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/refs/heads/main/engines/nyaapantsu.py",
+      "path": "plugins/community/public/nyaa-pantsu-2/nyaapantsu.py",
+      "status": "downloaded",
+      "size": 7214,
+      "sha256": "32d4b6488d72d6a42f31bb70c05e2d01b8cfc62a370daafda4eed7d2971a1173"
+    },
+    {
+      "name": "Nyaa.si",
+      "url": "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/nyaasi.py",
+      "path": "plugins/community/public/nyaa-si/nyaasi.py",
+      "status": "downloaded",
+      "size": 7143,
+      "sha256": "8b38deb7d22d86c3d64300cd58d55810260ea61b96b0fd552c3748201de44e46"
+    },
+    {
+      "name": "Online-Fix",
+      "url": "https://raw.githubusercontent.com/caiocinel/onlinefix-qbittorrent-plugin/main/onlinefix.py",
+      "path": "plugins/community/public/online-fix/onlinefix.py",
+      "status": "downloaded",
+      "size": 1158,
+      "sha256": "614fbe675d23bc60def90828aef3d8b4b2f2bf1ccdd58c395f0dc4e686f2f155"
+    },
+    {
+      "name": "PediaTorrent",
+      "url": "https://raw.githubusercontent.com/dangar16/pediatorrent-plugin/refs/heads/main/pediatorrent.py",
+      "path": "plugins/community/public/pediatorrent/pediatorrent.py",
+      "status": "downloaded",
+      "size": 4550,
+      "sha256": "88099fa1203755c23646c2c1c2ccb19e5c4c51053b70a11aedcec1da258e9f50"
+    },
+    {
+      "name": "PediaTorrent",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/pediatorrent.py",
+      "path": "plugins/community/public/pediatorrent-2/pediatorrent.py",
+      "status": "downloaded",
+      "size": 5917,
+      "sha256": "33539ee6edd1733dee72cc6a474a6861edfb16a66d9a2008428d5757421fe327"
+    },
+    {
+      "name": "Pirateiro",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/pirateiro.py",
+      "path": "plugins/community/public/pirateiro/pirateiro.py",
+      "status": "downloaded",
+      "size": 3026,
+      "sha256": "3618b5279966057eca22011a5d4032c32fac756e8b78720d2c63b0f367574e96"
+    },
+    {
+      "name": "Rede Torrent",
+      "url": "https://gist.githubusercontent.com/bebetoh/b5e1f4731462de9b837f5026617b1d4a/raw/e71d0020078d56d3f7e9a903ca7b4d44774e10f7/redetorrent.py",
+      "path": "plugins/community/public/rede-torrent/redetorrent.py",
+      "status": "downloaded",
+      "size": 8201,
+      "sha256": "ce2016fc6bd2c6a0f417d0167a5906ffed09f4656077c046058ca6a919d206da"
+    },
+    {
+      "name": "RockBox",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/rockbox.py",
+      "path": "plugins/community/public/rockbox/rockbox.py",
+      "status": "downloaded",
+      "size": 3343,
+      "sha256": "fe17c0a0a51029abe159143ad9ce0178ce05aeaa7f12da3453f19c429815ed7c"
+    },
+    {
+      "name": "Rutor",
+      "url": "https://raw.githubusercontent.com/imDMG/qBt_SE/master/engines/rutor.py",
+      "path": "plugins/community/public/rutor/rutor.py",
+      "status": "downloaded",
+      "size": 12066,
+      "sha256": "6007fa2a3063fe029737d82122dd88336070d705e73a545623585805dc773aa1"
+    },
+    {
+      "name": "SkTorrent",
+      "url": "https://raw.githubusercontent.com/Ashalda/sktorrent-qbt/refs/heads/main/sktorrent.py",
+      "path": "plugins/community/public/sktorrent/sktorrent.py",
+      "status": "downloaded",
+      "size": 2150,
+      "sha256": "a917b482741a0b301f09ce0c1edbfe5d7b4663c2367ede1a1bcde2641d62e28c"
+    },
+    {
+      "name": "small-games.info",
+      "url": "https://raw.githubusercontent.com/hannsen/qbittorrent_search_plugins/master/smallgames.py",
+      "path": "plugins/community/public/small-games-info/smallgames.py",
+      "status": "downloaded",
+      "size": 2276,
+      "sha256": "7d1086be858e8b4f59fc8c8c201b612c740a1b22c98a75b27477a1f00f1ed233"
+    },
+    {
+      "name": "Snowfl",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/snowfl.py",
+      "path": "plugins/community/public/snowfl/snowfl.py",
+      "status": "downloaded",
+      "size": 2591,
+      "sha256": "04a1f767f03c18134ce193eabcda43f4c37c53d56ed06d67b4fc7627ca0eb710"
+    },
+    {
+      "name": "SolidTorrents.to",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/solidtorrents.py",
+      "path": "plugins/community/public/solidtorrents-to/solidtorrents.py",
+      "status": "downloaded",
+      "size": 6074,
+      "sha256": "b71443fdb67f3714c722f2ef7886ce376db94d5d791b47fb267cfb3559b1ffa0"
+    },
+    {
+      "name": "SubsPlease.org",
+      "url": "https://raw.githubusercontent.com/kli885/qBittorent-SubsPlease-Search-Plugin/main/subsplease.py",
+      "path": "plugins/community/public/subsplease-org/subsplease.py",
+      "status": "downloaded",
+      "size": 1690,
+      "sha256": "3348ff9076b03c34ce87152597ffe0034ce1e192520d79b154952aa862bfc21c"
+    },
+    {
+      "name": "Sukebei (Nyaa)",
+      "url": "https://github.com/vt-idiot/qBit-SukebeiNyaa-plugin/raw/master/engines/sukebeisi.py",
+      "path": "plugins/community/public/sukebei-nyaa/sukebeisi.py",
+      "status": "downloaded",
+      "size": 5927,
+      "sha256": "353cb88a05a37f6ca30f9ce36163d64926c8706a5a41bef634e4b4e07b155539"
+    },
+    {
+      "name": "Sukebei Nyaa",
+      "url": "https://raw.githubusercontent.com/phuongtailtranminh/qBittorrent-Nyaa-Search-Plugin/master/nyaa.py",
+      "path": "plugins/community/public/sukebei-nyaa-2/nyaa.py",
+      "status": "downloaded",
+      "size": 2837,
+      "sha256": "416a318040aa6359ae14bddd083a947b7910e2de944b8ae2b801c174de65a485"
+    },
+    {
+      "name": "Sukebei.Pantsu",
+      "url": "https://raw.githubusercontent.com/libellula/qbt-plugins/main/sukebei.py",
+      "path": "plugins/community/public/sukebei-pantsu/sukebei.py",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "ThePirateBay",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/thepiratebay.py",
+      "path": "plugins/community/public/thepiratebay/thepiratebay.py",
+      "status": "downloaded",
+      "size": 1954,
+      "sha256": "0a8e83eeaf15aa65a714828d28ef9b6a99139c6e056298671d4a1d5c6a7437d5"
+    },
+    {
+      "name": "ThePirateBay with categories",
+      "url": "https://Scare.ca/dl/qBittorrent/thepiratebay.py",
+      "path": "plugins/community/public/thepiratebay-with-categories/thepiratebay.py",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "The RarBg",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/therarbg.py",
+      "path": "plugins/community/public/the-rarbg/therarbg.py",
+      "status": "downloaded",
+      "size": 6771,
+      "sha256": "4e748cbe68989c3d26bfda76a03d8640314802507fde8005f05878165f803cbc"
+    },
+    {
+      "name": "TomaDivx",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/tomadivx.py",
+      "path": "plugins/community/public/tomadivx/tomadivx.py",
+      "status": "downloaded",
+      "size": 7547,
+      "sha256": "fed83e5beacad5c38940d34aa650ba451e74fc90949df3a0eb74815c6693f017"
+    },
+    {
+      "name": "Tokyo Toshokan",
+      "url": "https://raw.githubusercontent.com/BrunoReX/qBittorrent-Search-Plugin-TokyoToshokan/master/tokyotoshokan.py",
+      "path": "plugins/community/public/tokyo-toshokan/tokyotoshokan.py",
+      "status": "downloaded",
+      "size": 5498,
+      "sha256": "e0cac329d5787d9a83a5bb7365af64fa939152dd5b9104daeaa1a37713c0dbe5"
+    },
+    {
+      "name": "Torrent9",
+      "url": "https://raw.githubusercontent.com/menegop/qbfrench/master/torrent9.py",
+      "path": "plugins/community/public/torrent9/torrent9.py",
+      "status": "downloaded",
+      "size": 6216,
+      "sha256": "e178e65032c2dd6e60c54713943eedc3c51de4f4c6b18c1d671cf9b3a41b3e7a"
+    },
+    {
+      "name": "TorrentDownload",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/torrentdownload.py",
+      "path": "plugins/community/public/torrentdownload/torrentdownload.py",
+      "status": "downloaded",
+      "size": 4032,
+      "sha256": "33a6a92307e3020e9cf29804af5b064dbf1036c7b383ad702733c46f20692804"
+    },
+    {
+      "name": "TorrentDownload with categories",
+      "url": "https://Scare.ca/dl/qBittorrent/torrentdownload.py",
+      "path": "plugins/community/public/torrentdownload-with-categories/torrentdownload.py",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "Torrent Downloads Pro",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/torrentdownloads.py",
+      "path": "plugins/community/public/torrent-downloads-pro/torrentdownloads.py",
+      "status": "downloaded",
+      "size": 6509,
+      "sha256": "c97e0405d5b9cd4db9c91da94ddd1a1da0326cf8d8ee9671f10be33f8b449c8a"
+    },
+    {
+      "name": "Torrenflix",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/torrenflix.py",
+      "path": "plugins/community/public/torrenflix/torrenflix.py",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "TorrentGalaxy",
+      "url": "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/torrentgalaxy.py",
+      "path": "plugins/community/public/torrentgalaxy/torrentgalaxy.py",
+      "status": "downloaded",
+      "size": 5174,
+      "sha256": "9448cbebc24ebf2db5f422d4e0ae13917b8512a82d465ba27edad58202ddc32e"
+    },
+    {
+      "name": "TrahT",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/traht.py",
+      "path": "plugins/community/public/traht/traht.py",
+      "status": "downloaded",
+      "size": 7344,
+      "sha256": "de1d9447998276a807ac8ee20007ec4049d17de0b3b7886094136806d0e2b6bc"
+    },
+    {
+      "name": "UIndex",
+      "url": "https://raw.githubusercontent.com/tolotp/qbittorrent-search-plugins-de-busqueda/refs/heads/main/Plugins/uindex.py",
+      "path": "plugins/community/public/uindex/uindex.py",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "UnionDHT",
+      "url": "https://raw.githubusercontent.com/msagca/qbittorrent-plugins/main/uniondht.py",
+      "path": "plugins/community/public/uniondht/uniondht.py",
+      "status": "downloaded",
+      "size": 6419,
+      "sha256": "4b298abdd30844dde360729c718d31be19410207659d7d667a83b2dd43304877"
+    },
+    {
+      "name": "XXXClub",
+      "url": "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/xxxclubto.py",
+      "path": "plugins/community/public/xxxclub/xxxclubto.py",
+      "status": "downloaded",
+      "size": 7543,
+      "sha256": "212470cca92675c7752ae6dc6516af42c72d93931176324ebd9349b3443071d0"
+    },
+    {
+      "name": "YourBittorrent",
+      "url": "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/yourbittorrent.py",
+      "path": "plugins/community/public/yourbittorrent/yourbittorrent.py",
+      "status": "downloaded",
+      "size": 3579,
+      "sha256": "5aeccc1e6addce6e632d159b412cd43335c6dc8a31a55397655af1dd14938187"
+    },
+    {
+      "name": "YTS",
+      "url": "https://codeberg.org/lazulyra/qbit-plugins/raw/branch/main/yts/yts.py",
+      "path": "plugins/community/public/yts/yts.py",
+      "status": "downloaded",
+      "size": 7555,
+      "sha256": "cb066319b5f6092621b21debc4303d937bacd2bdaef643f1740a516145cbfb9e"
+    },
+    {
+      "name": "YGGtracker",
+      "url": "https://raw.githubusercontent.com/YGGverse/qbittorrent-yggtracker-search-plugin/main/yggtracker.py",
+      "path": "plugins/community/public/yggtracker/yggtracker.py",
+      "status": "downloaded",
+      "size": 1975,
+      "sha256": "e5fdede3e0f2f721c8fbcf5cbd1af9643e423b7a1baf8bf689e65b623d78d8d9"
+    },
+    {
+      "name": "Zooqle",
+      "url": "https://raw.githubusercontent.com/444995/qbit-search-plugins/main/engines/zooqle.py",
+      "path": "plugins/community/public/zooqle/zooqle.py",
+      "status": "downloaded",
+      "size": 7256,
+      "sha256": "beb30e1de0577b07d031e5e66174bf724bc5e2821f3f4924bd5d9a79256e5f62"
+    }
+  ],
+  "downloaded": 67,
+  "failed": 7
+}

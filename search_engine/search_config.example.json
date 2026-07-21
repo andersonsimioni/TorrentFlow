@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "name": "Jackett",
+      "url": "http://127.0.0.1:9117/api/v2.0/indexers/all/results/torznab/api",
+      "api_key": "YOUR_JACKETT_API_KEY",
+      "enabled": true
+    },
+    {
+      "name": "Another Torznab source",
+      "url": "http://127.0.0.1:9696/INDEXER_ID/api",
+      "api_key": "YOUR_API_KEY",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "researched_on": "2026-07-20",
+  "official_repository": {
+    "url": "https://github.com/qbittorrent/search-plugins",
+    "commit": "62f296ed47010ab0ea9dbd43257a1a20025d1d1a",
+    "commit_date": "2026-07-18T14:13:21+08:00",
+    "note": "Hosted by the qBittorrent organization, but maintained by third-party contributors. Review code before execution."
+  },
+  "official_repository_plugins": [
+    {
+      "name": "EZTV",
+      "id": "eztv",
+      "version": "1.23",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/eztv.py"
+    },
+    {
+      "name": "Jackett",
+      "id": "jackett",
+      "version": "4.9",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/jackett.py"
+    },
+    {
+      "name": "LimeTorrents",
+      "id": "limetorrents",
+      "version": "4.14",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/limetorrents.py"
+    },
+    {
+      "name": "The Pirate Bay",
+      "id": "piratebay",
+      "version": "3.9",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py"
+    },
+    {
+      "name": "Solid Torrents",
+      "id": "solidtorrents",
+      "version": "2.8",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/solidtorrents.py"
+    },
+    {
+      "name": "TorLock",
+      "id": "torlock",
+      "version": "2.28",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torlock.py"
+    },
+    {
+      "name": "TorrentProject",
+      "id": "torrentproject",
+      "version": "1.91",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torrentproject.py"
+    },
+    {
+      "name": "torrents-csv",
+      "id": "torrentscsv",
+      "version": "1.8",
+      "url": "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torrentscsv.py"
+    }
+  ],
+  "recommended_aggregators": [
+    {
+      "name": "Jackett",
+      "trust": "recommended_by_qbittorrent",
+      "repository": "https://github.com/Jackett/Jackett",
+      "protocol": "Torznab",
+      "coverage": "More than 500 indexers",
+      "integration": "Official qBittorrent Jackett plugin or direct Torznab API"
+    },
+    {
+      "name": "Prowlarr",
+      "trust": "established_open_source_project",
+      "repository": "https://github.com/Prowlarr/Prowlarr",
+      "protocol": "Torznab",
+      "coverage": "More than 500 torrent trackers",
+      "integration": "Direct Torznab API"
+    },
+    {
+      "name": "NZBHydra2",
+      "trust": "listed_by_qbittorrent",
+      "repository": "https://github.com/theotherp/nzbhydra2",
+      "protocol": "Torznab and Newznab",
+      "coverage": "Smaller torrent catalog with additional aggregation features",
+      "integration": "Direct Torznab API"
+    }
+  ],
+  "not_recommended": [
+    {
+      "name": "Cardigann standalone",
+      "reason": "Listed by qBittorrent as no longer maintained"
+    },
+    {
+      "name": "Unknown standalone Python plugins",
+      "reason": "Arbitrary Python code with no reliable maintenance or audit trail"
+    }
+  ]
+}
