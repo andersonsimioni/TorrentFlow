@@ -32,7 +32,7 @@ def plugin_filename(url: str) -> str:
 def download(url: str, timeout: int) -> bytes:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "LiveTorrentClient-PluginFetcher/1.0"},
+        headers={"User-Agent": "TorrentFlow-PluginFetcher/1.0"},
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
         length = int(response.headers.get("Content-Length", 0))

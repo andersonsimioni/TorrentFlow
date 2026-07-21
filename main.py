@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def load_cli_module():
-    spec = importlib.util.spec_from_file_location("live_torrent_cli", ROOT / "main-cli.py")
+    spec = importlib.util.spec_from_file_location("torrentflow_cli", ROOT / "main-cli.py")
     if spec is None or spec.loader is None:
         raise RuntimeError("Could not load main-cli.py")
     module = importlib.util.module_from_spec(spec)
@@ -29,7 +29,7 @@ def load_cli_module():
 cli = load_cli_module()
 
 
-class LiveTorrentApp(ctk.CTk):
+class TorrentFlowApp(ctk.CTk):
     COLORS = {
         "bg": "#0b1120",
         "panel": "#111a2e",
@@ -45,7 +45,7 @@ class LiveTorrentApp(ctk.CTk):
     def __init__(self) -> None:
         ctk.set_widget_scaling(1.15)
         super().__init__(fg_color=self.COLORS["bg"])
-        self.title("Live Torrent Client")
+        self.title("TorrentFlow")
         self.geometry("1240x800")
         self.minsize(1040, 680)
         self.protocol("WM_DELETE_WINDOW", self.close_app)
@@ -116,7 +116,7 @@ class LiveTorrentApp(ctk.CTk):
         sidebar.grid_propagate(False)
 
         ctk.CTkLabel(
-            sidebar, text="◉  LIVE TORRENT", font=("Segoe UI Semibold", 19),
+            sidebar, text="◉  TORRENTFLOW", font=("Segoe UI Semibold", 19),
             text_color=self.COLORS["accent"],
         ).pack(anchor="w", padx=24, pady=(30, 42))
 
@@ -469,7 +469,7 @@ class LiveTorrentApp(ctk.CTk):
         self.busy = False
         self.status_text.set("Error")
         self._log(f"ERROR: {message}")
-        messagebox.showerror("Live Torrent Client", message)
+        messagebox.showerror("TorrentFlow", message)
 
     def choose_output(self) -> None:
         selected = filedialog.askdirectory(initialdir=self.output_dir.get())
@@ -496,4 +496,4 @@ class LiveTorrentApp(ctk.CTk):
 
 
 if __name__ == "__main__":
-    LiveTorrentApp().mainloop()
+    TorrentFlowApp().mainloop()

@@ -92,7 +92,7 @@ def search_source(source: SearchSource, query: str, timeout: int = 30) -> list[S
     url = urllib.parse.urlunsplit(
         (parsed.scheme, parsed.netloc, parsed.path, urllib.parse.urlencode(parameters), parsed.fragment)
     )
-    request = urllib.request.Request(url, headers={"User-Agent": "LiveTorrentClient/1.0"})
+    request = urllib.request.Request(url, headers={"User-Agent": "TorrentFlow/1.0"})
 
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:

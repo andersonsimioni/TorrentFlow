@@ -119,7 +119,7 @@ class Aria2:
         body = json.dumps(
             {
                 "jsonrpc": "2.0",
-                "id": "live-torrent-client",
+                "id": "torrentflow",
                 "method": method,
                 "params": [f"token:{self.secret}", *params],
             }
@@ -560,7 +560,8 @@ def download(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Explore a magnet link and choose which files to download."
+        prog="torrentflow-cli",
+        description="TorrentFlow: search, explore, download, and stream torrents.",
     )
     parser.add_argument("magnet", nargs="?", help="torrent magnet link")
     parser.add_argument(
